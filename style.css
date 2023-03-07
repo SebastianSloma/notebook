@@ -10,6 +10,7 @@ body {
 	height: 100vh;
 	font-family: 'Poppins', sans-serif;
 	background-color: aliceblue;
+    user-select: none;
 }
 
 .menu {
@@ -78,6 +79,7 @@ body {
 .note-body {
 	padding: 20px 15px;
 	font-size: 14px;
+    word-wrap:break-word;
 }
 
 .note-panel {
