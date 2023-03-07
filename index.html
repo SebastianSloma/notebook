@@ -12,7 +12,16 @@
 		></script>
 	</head>
 	<body>
+<div class="menu">
+    <h1><i class="fas fa-sticky-note"></i>NoteBook</h1>
+    <div class="menu-buttons">
+        <button class="add icon"><i class="fas fa-plus"></i>Add</button>
+        <button class="delete-all icon"><i class="fas fa-trash-alt"></i>Delete All</button>
+    </div>
+</div>
+
 		<div class="note-area">
+
 			<div class="note">
 				<div class="note-header">
 					<h3 class="note-title">Note#1</h3>
@@ -27,6 +36,19 @@
 					nemo magni.
 				</div>
 			</div>
+
+            <div class="note">
+				<div class="note-header">
+					<h3 class="note-title">Note#2</h3>
+					<button class="delete-note">
+						<i class="fas fa-times icon"></i>
+					</button>
+				</div>
+				<div class="note-body">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, eius.
+				</div>
+			</div>
+
 		</div>
 
         <div class="note-panel">
@@ -41,7 +63,7 @@
 
             <label for="text">Type the Content of a Note</label>
             <textarea id="text"></textarea>
-            <p class="error">Complete All Fields</p>
+            <p class="error">Complete All Fields!</p>
 
             <div class="panel-buttons">
                 <button class="save icon"><i class="fas fa-save"></i>Save</button>
