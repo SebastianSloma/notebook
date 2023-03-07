@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/1ea078603f.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="note-area">
+			<div class="note">
+				<div class="note-header">
+					<h3 class="note-title">Note#1</h3>
+					<button class="delete-note">
+						<i class="fas fa-times icon"></i>
+					</button>
+				</div>
+				<div class="note-body">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+					corporis obcaecati, nihil laudantium iure saepe consectetur veniam
+					facilis a iste quo nostrum sapiente ex facere sunt, vitae, repudiandae
+					nemo magni.
+				</div>
+			</div>
+		</div>
+
+        <div class="note-panel">
+            <h2>Add Note</h2>
+            <label for="category">Add Category</label>
+            <select name="" id="category">
+                <option value="0" disabled selected>- Chose Category -</option>
+                <option value="1">Shopping</option>
+                <option value="1">Work</option>
+                <option value="1">Others</option>
+            </select>
+
+            <label for="text">Type the Content of a Note</label>
+            <textarea id="text"></textarea>
+            <p class="error">Complete All Fields</p>
+
+            <div class="panel-buttons">
+                <button class="save icon"><i class="fas fa-save"></i>Save</button>
+                <button class="cancel icon"><i class="fas fa-window-close"></i>Cancel</button>
+            </div>
+        </div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
