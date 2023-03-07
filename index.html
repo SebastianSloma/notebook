@@ -24,7 +24,7 @@
 
 			<div class="note">
 				<div class="note-header">
-					<h3 class="note-title">Note#1</h3>
+					<h3 class="note-title">Note #1</h3>
 					<button class="delete-note">
 						<i class="fas fa-times icon"></i>
 					</button>
@@ -43,11 +43,11 @@
         <div class="note-panel">
             <h2>Add Note</h2>
             <label for="category">Add Category</label>
-            <select name="" id="category">
+            <select name="" id="category" onchange="selectValue()">
                 <option value="0" disabled selected>- Chose Category -</option>
                 <option value="1">Shopping</option>
                 <option value="1">Work</option>
-                <option value="1">Others</option>
+                <option value="1">Other</option>
             </select>
 
             <label for="text">Type the Content of a Note</label>
